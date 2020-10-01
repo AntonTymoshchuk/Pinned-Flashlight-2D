@@ -1,0 +1,14 @@
+﻿<Window x:Class="Pinned_Flashlight_2D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pinned_Flashlight_2D"
+        mc:Ignorable="d"
+        Title="Pinned Flashlight 2D" Width="800" Height="600">
+    <Grid Background="LightGoldenrodYellow">
+        <Button Width="100" Height="100" Template="{StaticResource pinnedFlashlight2DTemplate}">
+            <Image Width="62" Height="62" Source="/Images/Search-480.png"/>
+        </Button>
+    </Grid>
+</Window>
